@@ -38,5 +38,6 @@ public class ClientDemoApplication {
     public String fallbackHello(Exception e){
         logger.info("call fallback method");
         return "This is a fallback hello";
+
     }
 }
